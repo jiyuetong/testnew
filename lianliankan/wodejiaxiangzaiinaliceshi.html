@@ -4,12 +4,7 @@
 <meta charset="utf-8">
 <title>“我的家乡在哪里？”小测试</title>
 <style type="text/css">
-#dashu
-{
-position:absolute;
-left:800px;
-top:550px;
-}
+
 table
 {
 	border-collapse:collapse;	
@@ -117,7 +112,7 @@ function chuxian(number)
 function dianji(e)
 {
 	var tab = document.getElementById("mytab");
-	var x = e.clientX-280；
+	var x = e.clientX-280;
 	var y = e.clientY-80;
 	
 	var hangnum = Math.floor(y/80);
@@ -2108,7 +2103,6 @@ function lianxian2(numvalue)
 <div id="xiayiye" style="width:80px;height:50px;border:1px solid #000000">下一页</div>
 <div id="biaoti" style="width:340px;height:50px;border:1px solid #000000">“我的家乡在哪里？”之消除配对连连看</div>
 <div id="fanhui" style="width:100px;height:50px;border:1px solid #000000">返回</div>
-<div id="dashu" style="width:200px;height:200px;border:1px solid #000000">大树</div>
 <div id="youxi" style="width:500px;height:500px;border:1px solid #000000">
 	<table id="mytab" style="border:1px solid black;width:500px;height:500px;cellspacing:0; " onclick="dianji(event)">
 <tr><td></td><td ></td><td></td><td></td><td></td><td></td></tr>
